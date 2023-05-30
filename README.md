@@ -1,7 +1,7 @@
 # PI4IOE5V96248-GPIO-Expander-I2C-Communication-with-nucleo-F446RE-in-STM32IDE
 I2C communication with GPIO Expander
 
-1.Add the following code to your main.c file
+1.Add the following code to your main.c file\n
 2.In the .ioc file, set the I2C pins as follows: PB9 for I2C-SDA and PB8 for I2C-SCL.
 3.Build the project.
 4.Connect the GPIO Expander to the Nucleo board using the respective pins mentioned above.
