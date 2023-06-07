@@ -2,7 +2,7 @@
 I2C communication with GPIO Expander
 
 1.  Add the following code to your main.c file<br>
-2.  In the .ioc file, set the I2C pins as follows: PB9 for I2C-SDA and PB8 for I2C-SCL.<br>
+2.  In the .ioc file, set the I2C pins as follows: PB9 for I2C-SDA and PB8 for I2C-SCL. Also confugure I2C Clock Speed (Hz) to 400000<br>
 3.  Build the project.<br>
 4.  Connect the GPIO Expander to the Nucleo board using the respective pins mentioned above.<br>
 5.  Ensure that the GPIO Expander is powered by connecting it to the 3V power source.<br>
